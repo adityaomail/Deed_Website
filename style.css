@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+#div_login{
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:60px;
+   background-color:black;
+=======
+#button_login{
+
+  background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+
+}
+
+
+
+#button_sign{
+
+  background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+>>>>>>> b816f3a742a7d3654a4865694a616844ab359951
+}
