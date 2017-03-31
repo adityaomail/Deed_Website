@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <html>
 <head>
   <title>Home</title>
@@ -16,33 +16,9 @@
   </div>
 
   <div id="div_sign">
-
+    <form action="sign_form.php" method="POST">
+      Not a member yet? Join us :<input type="submit" value="Sign Up">
+    </form>
   </div>
-=======
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>Home</title>
-  <script src="functions.js"></script>
-  <noscript>javascript needed</noscript>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div>
-  <span><input type="button" onclick="javascript:login_details('u_here','pass_here')" value="Login" id="button_login"/></span>
-  <span><input type="button" onclick="javascript:sign_details('u_here','pass_here','name_here','phone_here')" value="Sign in" id="button_sign"/></span>
 
- </div>
-
-  <div id="u_here"></div>
-
-  <div id="pass_here"></div>
-
-  <div id="name_here"></div>
-
-  <div id="phone_here"></div>
-
-
->>>>>>> b816f3a742a7d3654a4865694a616844ab359951
-</body>
 </html>

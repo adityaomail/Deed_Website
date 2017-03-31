@@ -48,7 +48,7 @@ while ($_row = mysqli_fetch_object($sql_result))
         }
   else {
     echo "login failed";
-    $url = "http://localhost/Website/index.php";
+    $url = "http://localhost/Deed_Website/index.php";
     header('Location:'.$url);
     die();
 
