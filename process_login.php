@@ -42,7 +42,11 @@ while ($_row = mysqli_fetch_object($sql_result))
   if($_POST[username]==$_row->username && $_POST[password]==$_row->password)
         {
           echo "Login Successfull";
-          $url = "https://www.google.com";
+
+          session_start();
+          $_SESSION["username"] = $_row->username;
+          $_SESSION["password"] = $_row->password;
+          $url = "http://localhost/Deed_Website/home_user.php";
           header('Location:'.$url);
           die();
         }
