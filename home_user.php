@@ -12,9 +12,12 @@ session_start();
 
 if(isset($_SESSION["username"]) || isset($_SESSION["password"]))
 {
+  //This is the home for user.
   echo "Welcome";
-  echo $_SESSION["username"];
-  echo $_SESSION["password"];
+  //testing:echo $_SESSION["username"];
+  //testing:echo $_SESSION["password"];
+
+  
 
 }
 
@@ -22,7 +25,7 @@ if(isset($_SESSION["username"]) || isset($_SESSION["password"]))
 
 if($_SESSION["username"]=="" || $_SESSION["password"]=="")
 {
-  $url = "https://www.google.com";
+  $url = "https://localhost/Deed_Website/index.php";
   header('Location:'.$url);
   die();
   //echo "You need to login again";
@@ -32,7 +35,7 @@ if($_SESSION["username"]=="" || $_SESSION["password"]=="")
 
 
 <form action="temp_destroy_session.php" method="post">
-  <input type = "submit" value="submit"/>
+  <input type = "submit" value="Logout"/>
 </body>
 
 </html>
