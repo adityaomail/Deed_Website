@@ -6,36 +6,8 @@
 </head>
 <body>
 
-<?php
+<input type = "file" id= "image_upload" />
 
-session_start();
-
-if(isset($_SESSION["username"]) || isset($_SESSION["password"]))
-{
-  //This is the home for user.
-  echo "Welcome";
-  //testing:echo $_SESSION["username"];
-  //testing:echo $_SESSION["password"];
-
-  
-
-}
-
-
-
-if($_SESSION["username"]=="" || $_SESSION["password"]=="")
-{
-  $url = "https://localhost/Deed_Website/index.php";
-  header('Location:'.$url);
-  die();
-  //echo "You need to login again";
-}
-
-?>
-
-
-<form action="temp_destroy_session.php" method="post">
-  <input type = "submit" value="Logout"/>
 </body>
 
 </html>
