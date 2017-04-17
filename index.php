@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>Home</title>
     <script src="functions.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
     <noscript>Javascript required for login</noscript>
 </head>
 <body>
