@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Home</title>
+    <style>
+          body{
+              display : flex;
+              min-height: 100vh;
+              width : 100%;
+              padding: 0;
+              margin : 0;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+            }
+   </style>
+   <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+   <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA3-3voLYvngW1lK1K0MpOdTv6M37zWvWw",
+            authDomain: "utopian-precept-143208.firebaseapp.com",
+            databaseURL: "https://utopian-precept-143208.firebaseio.com",
+            projectId: "utopian-precept-143208",
+            storageBucket: "utopian-precept-143208.appspot.com",
+            messagingSenderId: "345090344814"
+            };
+            firebase.initializeApp(config);
+  </script>
+  <script language="Javascript" src="functions.js"></script>
+</head>
+
+
+<body>
+  <input type="text" id="usr_data">
+  <button onclick="alertMe()">Click</button>
+</body>
+</html>
